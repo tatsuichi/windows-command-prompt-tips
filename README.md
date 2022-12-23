@@ -124,5 +124,6 @@ tracert ホスト名/IPアドレス
 ```
 ##### httpリクエスト
 ```bat
-curl -X "GET" "UR" -v
+curl -X "GET" "UR" -v | jq.exe
 ```
+[jq公式サイト](https://stedolan.github.io/jq/)
