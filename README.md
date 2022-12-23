@@ -64,6 +64,16 @@ echo %hour%
 echo %min%
 echo %sec%
 ```
+##### 戻り値
+```bat
+echo %ERRORLEVEL%
+
+if %ERRORLEVEL% equ 0 (
+    REM 正常処理
+) else (
+    REM 異常処理
+)
+```
 
 ### コマンド関連
 ##### ヘルプ表示
