@@ -94,6 +94,13 @@ find /v /c "" *.*
 ```bat
 tree
 ```
+##### 文字コード
+```bat
+rem Shift-JIS
+chcp 932
+rem UTF-8
+chcp 65001
+```
 ##### IPアドレス等の確認
 ```bat
 ipconfig /all
