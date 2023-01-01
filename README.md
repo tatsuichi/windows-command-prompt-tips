@@ -134,3 +134,13 @@ tracert ホスト名/IPアドレス
 curl -X "GET" "UR" -v | jq.exe
 ```
 [jq公式サイト](https://stedolan.github.io/jq/)
+
+#### コマンドの結果をグレップする
+```bat
+コマンド | find "グレップする文字列"
+```
+
+#### 実行中のプロセス一覧
+```bat
+tasklist
+```
