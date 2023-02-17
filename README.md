@@ -131,7 +131,7 @@ tracert ホスト名/IPアドレス
 ```
 ##### httpリクエスト
 ```bat
-curl -X "GET" "UR" -v | jq.exe
+curl -X "GET" "URL" -v | jq.exe
 ```
 [jq公式サイト](https://stedolan.github.io/jq/)
 
